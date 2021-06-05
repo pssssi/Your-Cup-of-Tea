@@ -1,35 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Cup of Tea - Quiz</title>
-     <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="quiz.css">
+  <meta charset="UTF-8">
+  <title>Your Cup of Tea - Quiz</title>
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <div class="container">
-        <div id="quiz" class="justify-center flex-column">
-            <h2 id="question"> Do you always feel warm?</h2>
-<div class="ans-container">
-    <p class="ans-prefix">A</p>
-    <p class="ans-text">ans 1</p>
-</div>
-<div class="ans-container">
-    <p class="ans-prefix">B</p>
-    <p class="ans-text">ans 2</p>
-</div>
-<div class="ans-container">
-    <p class="ans-prefix">C</p>
-    <p class="ans-text">ans 3</p>
-</div>
-<div class="ans-container">
-    <p class="ans-prefix">D</p>
-    <p class="ans-text">ans 4</p>
-</div>
-        </div>
-    </div>
-    <script src="quiz.js"></script>
+
+<section id="quiz">
+  
+  
+  <div class="container">
+    <h2 id="askQuestion"></h2>
+  
+    <form id="form">
+      <div>
+        <input id="label0" type="radio" name="option" value="">
+        <label id="answer0" for=""></label>
+      </div>
+      <div>
+        <input id="label1" type="radio" name="option" value="">
+        <label id="answer1" for=""></label>
+      </div>
+      <div>
+        <input id="label2" type="radio" name="option" value="">
+        <label id="answer2" for=""></label>
+      </div>
+      <div>
+        <input id="label3" type="radio" name="option" value="">
+        <label id="answer3" for=""></label>
+      </div>
+      <div>
+        <input id="label4" type="radio" name="option" value="">
+        <label id="answer4" for=""></label>
+      </div>
+      <div>
+        <input id="label5" type="radio" name="option" value="">
+        <label id="answer5" for=""></label>
+      </div>
+    </form>
+
+    <button id="submitBtn" class="btn btn-primary">Submit</button>
+  </div>
+</section>
+
+
+
+  <script  src="./script.js"></script>
+
 </body>
 </html>
